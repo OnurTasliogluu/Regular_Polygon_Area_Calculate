@@ -7,7 +7,7 @@ Düzenli Çokgen Alan Hesabı Formülü : (1/4)nk2 cot(π/n)
 n : kenar sayısı
 k : kenar uzunluğu
 
-###Örnek:
+### Örnek:
 
 $ make
 cc		-c	src/polygon.c	-I./inc
