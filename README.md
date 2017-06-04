@@ -5,7 +5,8 @@ Programın amacı C dilinde OOP(object Orianted Programming) mantığına uygun 
 
 Düzenli Çokgen Alan Hesabı Formülü :
 ```
-Regular Polygon Area = (1/4)nk2 cot(π/n)
+Regular Polygon Area = (1/4)*n*k^2*cot(π/n)
+Regular Polygon Area = (1/4)*n*k^2/tan(π/n)
 n : kenar sayısı
 k : kenar uzunluğu
 ```
