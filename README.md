@@ -13,8 +13,8 @@ k : kenar uzunluğu
 
 ### Örnek:
 
-$ make
 ```
+$ make
 cc		-c	src/polygon.c	-I./inc
 cc		-I./inc	polygon.o	main.c	-lm	-o	polygon
 ```
