@@ -3,9 +3,12 @@ Regular Polygon Area Calculate
 
 Programın amacı C dilinde OOP(object Orianted Programming) mantığına uygun nasıl kod yazılabilir için bir örnektir.
 
-Düzenli Çokgen Alan Hesabı Formülü : (1/4)nk2 cot(π/n)
+Düzenli Çokgen Alan Hesabı Formülü :
+```
+(1/4)nk2 cot(π/n)
 n : kenar sayısı
 k : kenar uzunluğu
+```
 
 ### Örnek:
 
