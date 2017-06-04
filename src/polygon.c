@@ -6,16 +6,16 @@
 #include "debug.h"
 
 /*
-	Sabit PI sayisi
+    Sabit PI sayisi
 */
 #define PI 3.14159265358979323846
 
 
 /*
-	Polygon struct'i;
-	Kenar uzunlugu
-	Kenar sayisi
-	Cokgen alani
+    Polygon struct'i;
+    Kenar uzunlugu
+    Kenar sayisi
+    Cokgen alani
 */
 struct
 {
@@ -36,7 +36,7 @@ struct
 */
 static void polygon_init(void* self, unsigned int v_edge_length, unsigned int v_edge_number)
 {
-	Polygon *polygon = (Polygon*)self;
+    Polygon *polygon = (Polygon*)self;
     polygon->edge_length = v_edge_length;
     polygon->edge_number = v_edge_number;
     polygon->polygon_area = 0;
