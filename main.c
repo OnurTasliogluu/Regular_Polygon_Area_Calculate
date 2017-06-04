@@ -2,10 +2,8 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-
 #include "polygon.h"
 #include "debug.h"
-
 
 int main(int argc, char *argv[])
 {

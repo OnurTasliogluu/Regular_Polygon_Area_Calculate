@@ -10,7 +10,6 @@
 */
 #define PI 3.14159265358979323846
 
-
 /*
     Polygon struct'i;
     Kenar uzunlugu
@@ -96,7 +95,7 @@ static void polygon_calculate_area(void* self)
 */
 void polygon_destroy(void* self)
 {
-	Polygon *polygon = (Polygon*)self;
+    Polygon *polygon = (Polygon*)self;
     if(polygon != NULL)
     {
         free(polygon);
