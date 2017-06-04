@@ -82,9 +82,9 @@ static double cotan(double v_edge_number)
 */
 static void polygon_calculate_area(void* self)
 {
-	Polygon *polygon = (Polygon*)self;
-	DEBUG_INFO("self->edge_length = %d", polygon->edge_length);
-	DEBUG_INFO("self->edge_number = %d", polygon->edge_number);
+    Polygon *polygon = (Polygon*)self;
+    DEBUG_INFO("self->edge_length = %d", polygon->edge_length);
+    DEBUG_INFO("self->edge_number = %d", polygon->edge_number);
     polygon->polygon_area = ((double)1/4)*polygon->edge_number*pow(polygon->edge_length,2)*cotan(PI/polygon->edge_number);
 }
 
@@ -109,7 +109,7 @@ void polygon_destroy(void* self)
 */
 double getter_polygon_area(void* self)
 {
-	Polygon *polygon = (Polygon*)self;
+    Polygon *polygon = (Polygon*)self;
     if (polygon != NULL)
     {
         return polygon->polygon_area;
