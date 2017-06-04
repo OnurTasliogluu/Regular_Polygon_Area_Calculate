@@ -1,4 +1,4 @@
-# Regular_Polygon_Area_Calculate
+# Regular Polygon Area Calculate
 Regular Polygon Area Calculate
 
 Programın amacı C dilinde OOP(object Orianted Programming) mantığına uygun nasıl kod yazılabilir için bir örnektir.
